@@ -54,7 +54,7 @@
         <input type="submit" class="btn btn-primary" value="Login">
     </form>
     <form id="hiddenform" action="/customers" method="get">
-        <input type="hidden" value="list" name="a">
+        <input type="hidden" value="list" name="action">
     </form>
 </div>
 <% if (request.getAttribute("action") != null) {
